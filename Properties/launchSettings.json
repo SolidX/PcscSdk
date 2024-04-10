@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PcscSdk (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "PcscSdk (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
