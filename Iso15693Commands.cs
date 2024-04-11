@@ -9,10 +9,6 @@
 //
 //*********************************************************
 
-using System;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Storage.Streams;
-
 namespace Iso15693
 {
     /// <summary>

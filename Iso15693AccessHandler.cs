@@ -11,9 +11,6 @@
 
 using System.Threading.Tasks;
 using Windows.Devices.SmartCards;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Storage.Streams;
-
 using Pcsc;
 using System;
 
@@ -82,7 +79,7 @@ namespace Iso15693
         /// <returns>
         /// byte array of the read data
         /// </returns>
-        public async Task <byte[]> TransparentExchangeAsync(byte[] commandData)
+        public async Task<byte[]> TransparentExchangeAsync(byte[] commandData)
         {
             byte[] responseData = await connectionObject.TransparentExchangeAsync(commandData);
 

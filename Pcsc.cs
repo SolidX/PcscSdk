@@ -9,9 +9,6 @@
 //
 //*********************************************************
 
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Storage.Streams;
-
 namespace Pcsc
 {
     /// <summary>

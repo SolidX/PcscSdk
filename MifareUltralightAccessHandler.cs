@@ -11,8 +11,6 @@
 
 using System.Threading.Tasks;
 using Windows.Devices.SmartCards;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Storage.Streams;
 
 using Pcsc;
 using System;

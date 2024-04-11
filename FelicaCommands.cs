@@ -9,7 +9,6 @@
 //
 //*********************************************************
 
-using System;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Storage.Streams;
 
