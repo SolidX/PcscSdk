@@ -14,6 +14,7 @@
 		<Copyright>Microsoft</Copyright>
 		<Company>SolidX</Company>
 		<PackageTags>smartcard,mifare,felica,iso7816,iso15693</PackageTags>
+		<NeutralLanguage>en-US</NeutralLanguage>
 	</PropertyGroup>
 	<ItemGroup Condition="$(TargetFramework) == 'net6.0-windows10.0.19041.0'">
 		<PackageReference Include="Microsoft.WindowsAppSDK" Version="1.5.240311000" />
